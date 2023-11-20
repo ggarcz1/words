@@ -16,7 +16,7 @@ for word in wordsFile:
     definition = definition[2:]
     definition = definition.replace('\'','')
     # write to a file, separate by a /t
-    write_me = word + '\t' + definition + '\n'
+    write_me = word[:-1] + '\t' + definition + '\n'
     # write_me = '\''+word+'\''+':'+'\''+definition+'\','
     words_definition.write(write_me)
 

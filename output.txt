@@ -1,7 +1,134 @@
-'aboriginal
-':'being the first or earliest known of its kind present in a region, of or relating to the people who have been in a region from the earliest time : of or relating to aborigines; specifically, often capitalized : of or relating to the indigenous peoples of Australia','accentuate
-':'to make (something) more prominent or noticeable : accent, emphasize; also : intensify','acrid
-':'sharp and harsh or unpleasantly pungent in taste or odor : irritating, deeply or violently bitter : acrimonious','adept
-':'thoroughly proficient : expert','adroit
-':'having or showing skill, cleverness, or resourcefulness in handling situations','afoot
-':'on foot, in the process of development : underway','aforementioned':'mentioned previously',
+aboriginal	being the first or earliest known of its kind present in a region, of or relating to the people who have been in a region from the earliest time : of or relating to aborigines; specifically, often capitalized : of or relating to the indigenous peoples of Australia
+accentuate	to make (something) more prominent or noticeable : accent, emphasize; also : intensify
+acrid	sharp and harsh or unpleasantly pungent in taste or odor : irritating, deeply or violently bitter : acrimonious
+adept	thoroughly proficient : expert
+adroit	having or showing skill, cleverness, or resourcefulness in handling situations
+afoot	on foot, in the process of development : underway
+aforementioned	mentioned previously
+agitation	the act or an instance of agitating something : a moving back and forth or with an irregular, rapid, or violent action, a state or feeling of being agitated and restless : a state of excessive psychomotor activity accompanied by increased tension and irritability, a persistent and sustained attempt to arouse public feeling or influence public opinion (as by appeals, discussions, or demonstrations)
+agrarian	of or relating to fields or lands or their tenure, of, relating to, or characteristic of farmers or their way of life, organized or designed to promote agricultural interests
+alcove	a small recessed section of a room : nook, an arched opening (as in a wall) : niche, summerhouse
+allude	to make indirect reference; broadly : refer
+ambiguity	the quality or state of being ambiguous especially in meaning, a word or expression that can be understood in two or more possible ways : an ambiguous word or expression, uncertainty
+ambiguous	doubtful or uncertain especially from obscurity or indistinctness, inexplicable, capable of being understood in two or more possible senses or ways
+amiable	friendly, sociable, and congenial, generally agreeable, pleasing, admirable
+amiss	in a mistaken way : wrongly, astray, in a faulty way : imperfectly
+ancillary	subordinate, subsidiary, auxiliary, supplementary
+anthologies	a collection of selected literary pieces or passages or works of art or music, assortment
+antiquity	ancient times; especially : those before the Middle Ages, the quality of being ancient, relics or monuments (such as coins, statues, or buildings) of ancient times
+antiseptic	opposing microbial infection; especially : preventing or inhibiting the growth or action of microorganisms (such as bacteria) in or on living tissue (such as the skin or mucous membranes), relating to or characterized by the use of antiseptic substances, scrupulously clean : aseptic
+apathetic	affected by, characterized by, or displaying apathy : having or showing little or no interest, concern, or emotion
+aquiline	curving like an eagles beak", of, relating to, or resembling an eagle
+arcane	known or knowable only to a few people : secret; broadly : mysterious, obscure
+archangel	a chief angel, an order of angels
+ardent	characterized by warmth of feeling typically expressed in eager zealous support or activity, fiery, hot, shining, glowing
+arduous	hard to accomplish or achieve : difficult, marked by great labor or effort : strenuous, hard to climb : steep
+articulate	expressing oneself readily, clearly, and effectively; also : expressed in such a manner, divided into syllables or words meaningfully arranged : intelligible, able to speak
+ascertain	to find out or learn with certainty, to make certain, exact, or precise
+assiduously	showing great care, attention, and effort : marked by careful unremitting attention or persistent application
+assuage	to lessen the intensity of (something that pains or distresses) : ease, pacify, quiet, to put an end to by satisfying : appease, quench
+attenuate	to lessen the amount, force, magnitude, or value of : weaken, to reduce the severity, virulence, or vitality of, to make thin or slender
+availed	to be of use or advantage : serve, to produce or result in as a benefit or advantage : gain
+avulsion	a forcible separation or detachment: such as, a tearing away of a body part accidentally or surgically, "a sudden cutting off of land by flood, currents, or change in course of a body of water; especially : one separating land from one persons property and joining it to anothers
+baroque	of, relating to, or having the characteristics of a style of artistic expression prevalent especially in the 17th century that is marked generally by use of complex forms, bold ornamentation, and the juxtaposition of contrasting elements often conveying a sense of drama, movement, and tension, characterized by grotesqueness, extravagance, complexity, or flamboyance, irregularly shaped
+bedouin	a nomadic Arab of the Arabian, Syrian, or northern African deserts
+behest	an authoritative order : command, an urgent prompting
+bemused	marked by confusion or bewilderment : dazed, lost in thought or reverie, having or showing feelings of wry amusement especially from something that is surprising or perplexing
+benevolent	marked by or disposed to doing good, organized for the purpose of doing good, marked by or suggestive of goodwill
+benign	of a mild type or character that does not threaten health or life; especially : not becoming cancerous, having no significant effect : harmless, of a gentle disposition : gracious
+bilateral	affecting reciprocally two nations or parties, having two sides, of, relating to, or affecting the right and left sides of the body or the right and left members of paired organs
+boisterous	noisily turbulent : rowdy, marked by or expressive of exuberance and high spirits, stormy, tumultuous
+cancerous	a northern zodiacal constellation between Gemini and Leo, the fourth sign of the zodiac in astrology, one born under the sign of Cancer
+candor	unreserved, honest, or sincere expression : forthrightness, freedom from prejudice or malice : fairness, brightness, brilliance
+careen	to put (a ship or boat) on a beach especially in order to clean, caulk, or repair the hull, to cause to heel over, to clean, caulk, or repair the hull of a boat
+cavernous	having caverns or cavities, composed largely of vascular sinuses and capable of dilating with blood to bring about the erection of a body part, constituting or suggesting a cavern
+chastise	to censure severely : castigate, to inflict punishment on (as by whipping), chasten
+chiding	to speak out in angry or displeased rebuke, to voice disapproval to : reproach in a usually mild and constructive manner : scold
+cinema	motion picture —usually used attributively, a motion-picture theater, movies; especially : the film industry
+codify	to reduce to a code, systematize, classify
+cohort	companion, colleague, band, group, a group of individuals having a statistical factor (such as age or class membership) in common in a demographic study
+collegial	collegiate, marked by power or authority vested equally in each of a number of colleagues, characterized by equal sharing of authority especially by Roman Catholic bishops
+colloquial	used in or characteristic of familiar and informal conversation; also : unacceptably informal, using conversational style, of or relating to conversation : conversational
+compendium	a brief summary of a larger work or of a field of knowledge : abstract, a list of a number of items, collection, compilation
+conjecture	inference formed without proof or sufficient evidence, a conclusion deduced by surmise or guesswork, a proposition (as in mathematics) before it has been proved or disproved
+contempt	the act of despising : the state of mind of one who despises : disdain, lack of respect or reverence for something, the state of being despised
+contrite	feeling or showing sorrow and remorse for improper or objectionable behavior, actions, etc.
+contrived	having an unnatural or false appearance or quality : artificial, labored
+conundrum	an intricate and difficult problem, a question or problem having only a conjectural answer, a riddle whose answer is or involves a pun (as in "Why didn\t the lost hikers starve in the desert? Because of the sand which is there.")
+conversant	having knowledge or experience —used with with, having frequent or familiar association, concerned, occupied
+cordial	showing or marked by warm and often hearty friendliness, favor, or approval : politely pleasant and friendly, sincerely or deeply felt, tending to revive, cheer, or invigorate
+corrugated	having corrugations; also : made of corrugated material (such as cardboard)
+countenance	look, expression, mental composure, calm expression
+countervailing	to compensate for, equal, match, to exert force against : counteract
+demagogue	a leader who makes use of popular prejudices and false claims and promises in order to gain power, a leader championing the cause of the common people in ancient times
+derelicts	something voluntarily abandoned; especially : a ship abandoned on the high seas, a tract of land left dry by receding water, a destitute homeless social misfit : vagrant, bum
+derisive	expressing or causing contemptuous ridicule or scorn : expressing or causing derision
+dilapidated	decayed, deteriorated, or fallen into partial ruin especially through neglect or misuse
+dilettante	a person having a superficial interest in an art or a branch of knowledge : dabbler, an admirer or lover of the arts
+discern	to detect with the eyes, to detect with senses other than vision, to recognize or identify as separate and distinct : discriminate
+discrete	constituting a separate entity : individually distinct, consisting of distinct or unconnected elements : noncontinuous, taking on or having a finite or countably infinite number of values
+dolt	a stupid person
+dullard	a stupid or unimaginative person
+duplicity	contradictory doubleness of thought, speech, or action; especially : the belying of ones true intentions by deceptive words or action", the quality or state of being double or twofold, the technically incorrect use of two or more distinct items (such as claims, charges, or defenses) in a single legal action
+dutiful	filled with or motivated by a sense of duty, proceeding from or expressive of a sense of duty
+eccentric	deviating from conventional or accepted usage or conduct especially in odd or whimsical ways, deviating from an established or usual pattern or style, deviating from a circular path; especially : elliptical
+ecstatic	of, relating to, or marked by ecstasy
+effusive	marked by the expression of great or excessive emotion or enthusiasm, pouring freely, characterized or formed by a nonexplosive outpouring of lava
+elated	marked by high spirits : exultant
+eloquent	marked by forceful and fluent expression, vividly or movingly expressive or revealing
+emulate	to strive to equal or excel, imitate; especially : to imitate by means of an emulator, to equal or approach equality with
+envisage	to view or regard in a certain way, to have a mental picture of especially in advance of realization
+equerry	an officer of a prince or noble charged with the care of horses, an officer of the British royal household in personal attendance on the sovereign or a member of the royal family
+equivocal	subject to two or more interpretations and usually used to mislead or confuse, uncertain as an indication or sign, of uncertain nature or classification
+escapade	a usually adventurous action that runs counter to approved or conventional conduct
+eschew	to avoid habitually especially on moral or practical grounds : shun
+etiolate	to bleach and alter the natural development of (a green plant) by excluding sunlight, to make pale, to deprive of natural vigor : make feeble
+evidently	in an evident manner : clearly, obviously, on the basis of available evidence
+expostulate	discuss, examine, to reason earnestly with a person for purposes of dissuasion or remonstrance
+extrapolated	to predict by projecting past experience or known data, to project, extend, or expand (known data or experience) into an area not known or experienced so as to arrive at a usually conjectural knowledge of the unknown area, to infer (values of a variable in an unobserved interval) from values within an already observed interval
+fallacy	a false or mistaken idea, erroneous character : erroneousness, deceptive appearance : deception
+fastidious	extremely or excessively careful or detailed, characterized by a meticulous, sensitive, or demanding attitude : such as, having high and often capricious standards
+fecundity	fruitful in offspring or vegetation : prolific, intellectually productive or inventive to a marked degree
+festive	of, relating to, or suitable for a feast or festival, joyful, gay
+filibuster	an irregular military adventurer; specifically : an American engaged in fomenting insurrections in Latin America in the mid-19th century, the use of extreme dilatory tactics (as by making long speeches) in an attempt to delay or prevent action especially in a legislative assembly, an instance of this practice
+fitfully	characterized by fits or paroxysms, having an erratic or intermittent character : irregular
+fortuitous	occurring by chance, fortunate, lucky, coming or happening by a lucky chance
+fraternize	to associate or mingle as brothers or on fraternal terms, to associate on close terms with members of a hostile group especially when contrary to military orders, to be friendly or amiable
+freeloader	to impose upon anothers generosity or hospitality without sharing in the cost or responsibility involved : sponge
+frivolous	of little weight or importance, having no sound basis (as in fact or law), lacking in seriousness
+furnish	to provide with what is needed; especially : to equip with furniture, supply, give
+furtive	done in a quiet and secretive way to avoid being noticed : surreptitious, expressive of stealth : sly, obtained underhandedly : stolen
+furtively	done in a quiet and secretive way to avoid being noticed : surreptitious, expressive of stealth : sly, obtained underhandedly : stolen
+genially	marked by or freely expressing sympathy or friendliness, favorable to growth or comfort : mild, displaying or marked by genius
+gratuitous	not called for by the circumstances : not necessary, appropriate, or justified : unwarranted, given unearned or without recompense, costing nothing : free
+groundless	having no ground or foundation
+harangue	a speech addressed to a public assembly, a ranting speech or writing, lecture
+hastily	in haste : hurriedly
+hedonistic	devoted to the pursuit of pleasure : of, relating to, or characterized by hedonism
+hermetically	in an airtight manner : so as to be completely airtight —usually used in the phrase hermetically sealed
+hinterlands	a region lying inland from a coast, a region remote from urban areas, a region lying beyond major metropolitan or cultural centers
+hitherto	up to this or that time
+hubris	exaggerated pride or self-confidence
+idiomatic	of, relating to, or conforming to idiom, peculiar to a particular group, individual, or style
+illustrious	notably or brilliantly outstanding because of dignity or achievements or actions : eminent, shining brightly with light, clearly evident
+imbecile	a foolish or stupid person, a person affected with moderate intellectual disability
+imbibing	drink, to take in or up, to receive into the mind and retain
+impertinent	given to or characterized by insolent rudeness, not restrained within due or proper bounds especially of propriety or good taste, not pertinent : irrelevant
+impetuous	marked by impulsive vehemence or passion, marked by force and violence of movement or action
+implore	to make an earnest request to (someone) : beg, to say (something) as a request in a sincere or urgent manner, to ask or beg for (something) earnestly
+inauspicious	not auspicious
+incessant	continuing or following without interruption : unceasing
+incognito	with ones identity concealed
+incorrigible	incapable of being corrected or amended: such as, not reformable : depraved, delinquent
+incredulous	unwilling to admit or accept what is offered as true : not credulous : skeptical, expressing incredulity, incredible
+indictment	a formal written statement framed by a prosecuting authority and found by a jury (such as a grand jury) charging a person with an offense, the action or the legal process of indicting, the state of being indicted
+industriousness	constantly, regularly, or habitually active or occupied : diligent, skillful, ingenious
+ingenuity	skill or cleverness in devising or combining : inventiveness, cleverness or aptness of design or contrivance, an ingenious device or contrivance
+ingratiating	intended or adopted in order to gain favor : flattering, capable of winning favor : pleasing
+interloper	one that interlopes: such as, one that intrudes in a place or sphere of activity, an illegal or unlicensed trader
+interlude	an intervening or interruptive period, space, or event : interval, a musical composition inserted between the parts of a longer composition, a drama, or a religious service, a usually short simple play or dramatic entertainment
+interminable	having or seeming to have no end; especially : wearisomely protracted
+irate	roused to ire, arising from anger
+irreconcilable	impossible to reconcile
+lacquer	a spirit varnish (such as shellac), any of various durable natural varnishes; especially : a varnish obtained from an Asian sumac (Rhus verniciflua) —called also Japanese lacquer, any of various clear or colored synthetic organic coatings that typically dry to form a film by evaporation of the solvent; especially : a solution of a cellulose derivative (such as nitrocellulose)
+landau	a four-wheel carriage with a top divided into two sections that can be folded away or removed and with a raised seat outside for the driver
