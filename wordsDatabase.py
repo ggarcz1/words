@@ -7,13 +7,14 @@ words_definition = open('output.txt', 'a')
 api_key = '186c73a1-3a44-4091-9e6d-a2cdf0d47608'
 error = '\t Error: word was not found, check spelling\n'
 torf = True
+# test for network connectivity here
 
 for word in wordsFile:
     # definition already exists
     arr = word.split('\t') 
     if len(arr) == 2:
         break
-
+        
     response = requests.get(f'https://www.dictionaryapi.com/api/v3/references/collegiate/json/{word}?key={api_key}')
 
     try:
