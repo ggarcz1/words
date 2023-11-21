@@ -261,7 +261,7 @@ succinct	marked by compact precise expression without wasted words, being girded
 sullen	gloomily or resentfully silent or repressed, suggesting a sullen state : lowering, dull or somber in sound or color
 sundered	to break apart or in two : separate by or as if by violence or by intervening time or space, to become parted, disunited, or severed
 superfluous	exceeding what is sufficient or necessary : extra, not needed : unnecessary, marked by wastefulness : extravagant
-surl	menacing or threatening in appearance, arrogant, imperious, irritably sullen and churlish in mood or manner : crabbed
+surl	 Error: word was not found, check spelling
 surplice	a loose white outer ecclesiastical vestment usually of knee length with large open sleeves
 surreptitiously	done, made, or acquired by stealth : clandestine, acting or doing something clandestinely : stealthy
 syndicated	to subject to or manage as a syndicate, to sell (something, such as a cartoon) to a syndicate or for publication in many newspapers or periodicals at once; also : to sell the work of (someone, such as a writer) in this way, to sell (something, such as a series of television programs) directly to local stations
@@ -290,4 +290,4 @@ vile	morally despicable or abhorrent, physically repulsive : foul, of little wor
 virtuoso	one who excels in the technique of an art; especially : a highly skilled musical performer, a person who has exceptional skill, expertise, or talent at some endeavor, a person interested in the pursuit of knowledge in some specialized field and especially in the arts and sciences
 voluptuous	suggesting sensual pleasure by fullness and beauty of form, full of delight or pleasure to the senses : conducive to or arising from sensuous or sensual gratification : luxurious, given to or spent in enjoyment of luxury, pleasure, or sensual gratifications
 voluptuously	suggesting sensual pleasure by fullness and beauty of form, full of delight or pleasure to the senses : conducive to or arising from sensuous or sensual gratification : luxurious, given to or spent in enjoyment of luxury, pleasure, or sensual gratifications
-zealous	marked by fervent partisanship for a person, a cause, or an ideal : filled with or characterized by zeal
+zealous marked by fervent partisanship for a person, a cause, or an ideal : filled with or characterized by zeal
