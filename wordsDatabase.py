@@ -3,9 +3,9 @@ import time
 
 # open the file of words
 wordsFile = open('words.txt','r')
-words_definition = open('output.txt', 'w+')
+words_definition = open('output.txt', 'a')
 api_key = '186c73a1-3a44-4091-9e6d-a2cdf0d47608'
-error = '\t Error: word was not found, check spelling'
+error = '\t Error: word was not found, check spelling\n'
 torf = True
 
 for word in wordsFile:
@@ -20,7 +20,7 @@ for word in wordsFile:
         definition = str(response.json()[0].get('shortdef'))
     except:
         torf = False
-        write_me = word + '' + error
+        write_me = word[:-1] + '' + error
 
     if torf:
         # trim the [' and ']
@@ -32,5 +32,6 @@ for word in wordsFile:
         write_me = word[:-1] + '\t' + definition + '\n' 
    
     words_definition.write(write_me)
+    write_me = ''
 
 print('Process completed.')
