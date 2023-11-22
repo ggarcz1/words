@@ -1,8 +1,9 @@
 import requests
 import time
 import socket
+import sqlite3
 
-# source for "test_network_connectivity(_,_)": https://chat.openai.com/share/abc86a1c-f1f8-4d0f-a9b0-26d7e571efbc
+# source for "test_network_connectivity()": https://chat.openai.com/share/abc86a1c-f1f8-4d0f-a9b0-26d7e571efbc
 def test_network_connectivity(host, port):
     try:
         # Create a socket object
@@ -14,21 +15,38 @@ def test_network_connectivity(host, port):
         print(f"Unable to connect to {host}:{port}. Error: {e}")
         return False
 
+def get_definition(word):
+    cursor.execute('SELECT * FROM words WHERE word=?', (word,))
+    response = cursor.fetchall()
+    sqliteConnection.close()
+    return response
 
-
-def search(fileObject,word):
-    for idx in fileObject:
-        line = idx.split('\t')
-        # assuming a-z
-        # word will pass where it should be alphabetically
-        if line[0] > word and line[0] != word:
-            return False
-        if word == line[0]:
-            return True
+# def add_word(word):
+#     if check_for_word(word=word):
+#         return False
+#     else:
+#         sqliteConnection = sqlite3.connect('words.db')
+#         cursor = sqliteConnection.cursor()
+#         cursor.execute('SELECT * FROM words WHERE word=?', (word,))
+#         #     values = [arr[0], arr[1]]
+# #         cursor.execute("INSERT INTO words VALUES (?, ?)",values)
     
-    return False
+#     cursor = connection.execute( 
+#     "SELECT NAME,ID from customer_address ORDER BY NAME DESC")
+#     return True
 
-# open the file of words
+# True --> word exists in database
+def check_for_word(word):
+    sqliteConnection = sqlite3.connect('words.db')
+    cursor = sqliteConnection.cursor()
+    # check if user exists in the database already
+    cursor.execute('SELECT * FROM words WHERE word=?', (word,))
+    response = cursor.fetchall()
+    sqliteConnection.close()
+    return len(response) == 1
+
+
+# open the file to add new words
 wordsFile = open('words.txt','r')
 words_definition = open('words.txt', 'a')
 api_key = '186c73a1-3a44-4091-9e6d-a2cdf0d47608'
@@ -42,13 +60,11 @@ port_to_test = 443
 if not test_network_connectivity(host_to_test, port_to_test):
     exit(0)
 
-# works
-# print(search(wordsFile,'acid'))
 
 for word in wordsFile:
     # check for if the definition already exists
     arr = word.split('\t')
-    if len(arr) == 1 and search(wordsFile,arr[0]):
+    if len(arr) == 1 and not check_for_word(arr[0]):
         response = requests.get(f'https://www.dictionaryapi.com/api/v3/references/collegiate/json/{word}?key={api_key}')
 
         try:
@@ -64,7 +80,26 @@ for word in wordsFile:
         except:
             write_me = word[:-1] + '' + error
 
-        words_definition.write(write_me)
+        values = [word, write_me]
+        sqliteConnection = sqlite3.connect('words.db')
+        cursor = sqliteConnection.cursor()  
+        cursor.execute("INSERT INTO words VALUES (?, ?)",values)
+        # alphabetize
+        cursor.execute("SELECT word,definition from words ORDER BY word ASC")
+        sqliteConnection.commit()
+        sqliteConnection.close()
+
+        # words_definition.write(write_me)
         write_me = ''
 
+if counter != 0:
+    # write database to the output file 
+    sqliteConnection = sqlite3.connect('words.db')
+    cursor = sqliteConnection.cursor()  
+    cursor.execute('SELECT * FROM words')
+    response = cursor.fetchall()
+    
+    sqliteConnection.close()
+    sqliteConnection.close()
+ 
 print('Process completed. ' + str(counter) + ' words have been searched.')
