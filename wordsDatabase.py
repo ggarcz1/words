@@ -8,7 +8,7 @@ def test_network_connectivity(host, port):
     try:
         # Create a socket object
         sock = socket.create_connection((host, port), timeout=5)
-        print(f"Successfully connected to {host}:{port}")
+        # print(f"Successfully connected to {host}:{port}")
         sock.close()
         return True
     except socket.error as e:
@@ -21,6 +21,7 @@ def get_definition(word):
     sqliteConnection.close()
     return response
 
+## this is the same as the code below
 # def add_word(word):
 #     if check_for_word(word=word):
 #         return False
@@ -28,11 +29,9 @@ def get_definition(word):
 #         sqliteConnection = sqlite3.connect('words.db')
 #         cursor = sqliteConnection.cursor()
 #         cursor.execute('SELECT * FROM words WHERE word=?', (word,))
-#         #     values = [arr[0], arr[1]]
-# #         cursor.execute("INSERT INTO words VALUES (?, ?)",values)
-    
-#     cursor = connection.execute( 
-#     "SELECT NAME,ID from customer_address ORDER BY NAME DESC")
+#         values = [arr[0], arr[1]]
+#         cursor.execute("INSERT INTO words VALUES (?, ?)",values)
+
 #     return True
 
 # True --> word exists in database
