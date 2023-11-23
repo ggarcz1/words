@@ -54,6 +54,7 @@ write_me = ''
 counter = 0
 host_to_test = "google.com"
 port_to_test = 443
+duplicates = []
 
 # test for network connectivity here
 if not test_network_connectivity(host_to_test, port_to_test):
@@ -90,6 +91,8 @@ for word in wordsFile:
 
         # words_definition.write(write_me)
         write_me = ''
+    else:
+        duplicates.append(word)
 
 if counter != 0:
     # write database to the output file 
@@ -102,3 +105,6 @@ if counter != 0:
     sqliteConnection.close()
  
 print('Process completed. ' + str(counter) + ' words have been searched.')
+if len(duplicates) != 0:
+    print('The following duplicates were discovered: ')
+    print(duplicates)
