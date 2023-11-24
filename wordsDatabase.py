@@ -47,7 +47,7 @@ def check_for_word(word):
 
 # open the file to add new words
 wordsFile = open('words.txt','r')
-words_definition = open('words.txt', 'a')
+# words_definition = open('words.txt', 'a')
 api_key = '186c73a1-3a44-4091-9e6d-a2cdf0d47608'
 error = '\t Error: word was not found, check spelling\n'
 write_me = ''
@@ -84,6 +84,7 @@ for word in wordsFile:
         sqliteConnection = sqlite3.connect('words.db')
         cursor = sqliteConnection.cursor()  
         cursor.execute("INSERT INTO words VALUES (?, ?)",values)
+        sqliteConnection.commit()
         # alphabetize
         cursor.execute("SELECT word,definition from words ORDER BY word ASC")
         sqliteConnection.commit()
@@ -94,16 +95,24 @@ for word in wordsFile:
     else:
         duplicates.append(word)
 
-if counter != 0:
-    # write database to the output file 
-    sqliteConnection = sqlite3.connect('words.db')
-    cursor = sqliteConnection.cursor()  
-    cursor.execute('SELECT * FROM words')
-    response = cursor.fetchall()
-    
-    sqliteConnection.close()
-    sqliteConnection.close()
+
+
+# if counter != 0:
+#     # write database to the output file 
+#     sqliteConnection = sqlite3.connect('words.db')
+#     cursor = sqliteConnection.cursor()  
+#     cursor.execute('SELECT * FROM words')
+#     response = cursor.fetchall()
+#     for each in response:
+#         print(each)
+#     sqliteConnection.close()
  
+
+# overwrite the initial input file 
+wordsFile = open('words.txt','w')
+wordsFile.write('')
+wordsFile.close()
+
 print('Process completed. ' + str(counter) + ' words have been searched.')
 if len(duplicates) != 0:
     print('The following duplicates were discovered: ')
