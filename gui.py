@@ -7,7 +7,7 @@ from tkinter import ttk
 # https://www.pythontutorial.net/tkinter/tkinter-scrollbar/
 
 root = tk.Tk()
-root.resizable(False, False)
+root.resizable(True, True)
 root.title("Scrollbar Widget Example")
 
 # apply the grid layout
@@ -15,7 +15,7 @@ root.grid_columnconfigure(0, weight=1)
 root.grid_rowconfigure(0, weight=1)
 
 # create the text widget
-text = tk.Text(root, height=35, width=200)
+text = tk.Text(root, height=50, width=200)
 text.grid(row=0, column=0, sticky=tk.EW)
 
 scrollbar = ttk.Scrollbar(root, orient='vertical', command=text.yview)
@@ -40,4 +40,4 @@ root.mainloop()
 
 # add buttons to add a word
 # add button to search
-# add button to 
+# add button to
