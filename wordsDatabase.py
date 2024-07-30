@@ -60,11 +60,12 @@ duplicates = []
 if not test_network_connectivity(host_to_test, port_to_test):
     exit(0)
 
-print(f'Searching for the words in the file {wordsFileName}...')
+print(f'Searching for the words in the file "{wordsFileName}"...')
 
 write_me = definition = None
 
 for word in wordsFile:
+    word = word.lower()
     # check for if the definition already exists
     arr = word.split('\t')
     if check_for_word(arr[0]):
@@ -73,7 +74,7 @@ for word in wordsFile:
         arr = word.split(' ')
         if len(arr) == 1:
             response = requests.get(f'https://www.dictionaryapi.com/api/v3/references/collegiate/json/{word}?key={api_key}')
-        # phrase was added
+        # word was added
             try:
                     definition = str(response.json()[0].get('shortdef'))
                     # trim the [' and ']
@@ -87,6 +88,7 @@ for word in wordsFile:
                 definition = error
 
             values = [word, definition]
+            # redundant code here, code should be outside of if else
             # sqliteConnection = sqlite3.connect('words.db')
             # cursor = sqliteConnection.cursor()  
             # cursor.execute("INSERT INTO words VALUES (?, ?)",values)
@@ -104,12 +106,7 @@ for word in wordsFile:
         cursor.execute("INSERT INTO words VALUES (?, ?)",values)
         sqliteConnection.commit()
 
-    sqliteConnection = sqlite3.connect('words.db')
-    cursor = sqliteConnection.cursor()  
-    cursor.execute('SELECT * FROM words')
-    response = cursor.fetchall()
-    for each in response:
-        print(each)
+
         
 # alphabetize
 # cursor.execute("SELECT word,definition from words ORDER BY word ASC")
@@ -117,10 +114,18 @@ for word in wordsFile:
 # sqliteConnection.close()
 
 # overwrite the initial input file 
-wordsFile = open('words.txt','w')
-wordsFile.write('')
-wordsFile.close()
+# wordsFile = open('words.txt','w')
+# wordsFile.write('')
+# wordsFile.close()
 
+# fetch all from database post write
+sqliteConnection = sqlite3.connect('words.db')
+cursor = sqliteConnection.cursor()  
+cursor.execute('SELECT * FROM words')
+response = cursor.fetchall()
+for each in response:
+    print(each)
+        
 print('Process completed. ' + str(counter) + ' words have been searched.')
 print('Process completed. ' + str(counter_phrases) + ' phrases have been added.')
 
