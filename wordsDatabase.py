@@ -55,6 +55,7 @@ counter = counter_phrases = 0
 host_to_test = "google.com"
 port_to_test = 443
 duplicates = []
+word_flag = True
 
 # test for network connectivity here
 if not test_network_connectivity(host_to_test, port_to_test):
@@ -88,22 +89,24 @@ for word in wordsFile:
                 definition = error
 
             values = [word, definition]
-            # redundant code here, code should be outside of if else
-            # sqliteConnection = sqlite3.connect('words.db')
-            # cursor = sqliteConnection.cursor()  
-            # cursor.execute("INSERT INTO words VALUES (?, ?)",values)
-            # sqliteConnection.commit()
 
         # phrase present 
         elif len(arr) > 1:
+            word_flag = True
             counter_phrases += 1
-            phrase = word
-            values = [word, None]
-            # write data to file
+            values = word
 
-        sqliteConnection = sqlite3.connect('words.db')
-        cursor = sqliteConnection.cursor()  
-        cursor.execute("INSERT INTO words VALUES (?, ?)",values)
+        if word_flag == False:
+            sqliteConnection = sqlite3.connect(f'{db}')
+            cursor = sqliteConnection.cursor()  
+            cursor.execute("INSERT INTO phrases VALUES (?)",values)
+        
+        else:
+            db = 'words.db'
+            sqliteConnection = sqlite3.connect(f'{db}')
+            cursor = sqliteConnection.cursor()  
+            cursor.execute("INSERT INTO words VALUES (?, ?)",values)
+            
         sqliteConnection.commit()
 
 
@@ -119,12 +122,12 @@ for word in wordsFile:
 # wordsFile.close()
 
 # fetch all from database post write
-sqliteConnection = sqlite3.connect('words.db')
-cursor = sqliteConnection.cursor()  
-cursor.execute('SELECT * FROM words')
-response = cursor.fetchall()
-for each in response:
-    print(each)
+# sqliteConnection = sqlite3.connect('words.db')
+# cursor = sqliteConnection.cursor()  
+# cursor.execute('SELECT * FROM words')
+# response = cursor.fetchall()
+# for each in response:
+#     print(each)
         
 print('Process completed. ' + str(counter) + ' words have been searched.')
 print('Process completed. ' + str(counter_phrases) + ' phrases have been added.')

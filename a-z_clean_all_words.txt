@@ -84,8 +84,6 @@ countervailing
 demagogue
 derelicts
 derisive
-devour
-devouring
 diffident
 dilapidated
 dilettante
@@ -110,7 +108,6 @@ escapade
 eschew
 etiolate
 evidently
-examine
 expostulate
 extrapolated
 fallacy
@@ -135,7 +132,6 @@ groundless
 harangue
 hastily
 hedonistic
-here
 hermetically
 hinterlands
 hitherto
@@ -165,7 +161,6 @@ interminable
 introspective
 irate
 irreconcilable
-judicial
 lacquer
 landau
 languid
@@ -226,11 +221,9 @@ pertinent
 perusing
 perverse
 perversely
-phrase
 piteous
 pithy
 placid
-planked
 pontificating
 precarious
 precipitous
@@ -257,7 +250,6 @@ redundant
 refractory
 regal
 relapse
-relapsejudicial
 reluctant
 repudiate
 reputable
@@ -306,8 +298,6 @@ tenacious
 tepid
 terse
 theatrical
-they
-to
 transparent
 truncheons
 ubiquitous
@@ -329,5 +319,4 @@ vile
 virtuoso
 voluptuous
 voluptuously
-word
 zealous
