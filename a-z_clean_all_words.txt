@@ -47,7 +47,6 @@ bemused
 benevolent
 benign
 bereft
-big
 bilateral
 boisterous
 bourgeoisie
@@ -320,3 +319,12 @@ virtuoso
 voluptuous
 voluptuously
 zealous
+implicate
+treacheries
+deeds
+credentials
+diatribe
+rambling
+arrogant
+presumptuous
+edification

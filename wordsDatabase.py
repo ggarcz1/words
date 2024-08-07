@@ -59,6 +59,7 @@ word_flag = True
 
 # test for network connectivity here
 if not test_network_connectivity(host_to_test, port_to_test):
+    print(f'Error.  No connectivity to {host_to_test}')
     exit(0)
 
 print(f'Searching for the words in the file "{wordsFileName}"...')
@@ -67,6 +68,9 @@ write_me = definition = None
 
 for word in wordsFile:
     word = word.lower()
+    if ' ' in word:
+        word_flag = False
+
     # check for if the definition already exists
     arr = word.split('\t')
     if check_for_word(arr[0]):
@@ -92,17 +96,19 @@ for word in wordsFile:
 
         # phrase present 
         elif len(arr) > 1:
-            word_flag = True
+            word_flag = False
             counter_phrases += 1
             values = word
+
+
+        db = 'words.db'
 
         if word_flag == False:
             sqliteConnection = sqlite3.connect(f'{db}')
             cursor = sqliteConnection.cursor()  
-            cursor.execute("INSERT INTO phrases VALUES (?)",values)
+            cursor.execute("INSERT INTO phrases VALUES (?)",[values])
         
         else:
-            db = 'words.db'
             sqliteConnection = sqlite3.connect(f'{db}')
             cursor = sqliteConnection.cursor()  
             cursor.execute("INSERT INTO words VALUES (?, ?)",values)
