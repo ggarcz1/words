@@ -67,6 +67,7 @@ print(f'Searching for the words in the file "{wordsFileName}"...')
 write_me = definition = None
 
 for word in wordsFile:
+    print(word)
     word = word.lower()
     if ' ' in word:
         word_flag = False

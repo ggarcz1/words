@@ -24,11 +24,19 @@ cursor.execute('SELECT COUNT(*) FROM phrases')
 count = (str(cursor.fetchall()[0])[:-2])[1:]
 print(f'There are {count} entries in the Phrases Database')
 
-# cursor.execute('SELECT * FROM words')
-# print(cursor.fetchall())
 
-cursor.execute('SELECT * FROM phrases')
-print(cursor.fetchall())
+# cursor.execute('SELECT * FROM words')
+# # print(cursor.fetchall())
+# words = cursor.fetchall()
+# for each in words:
+#     print(each[0][:-1])
+
+
+# cursor.execute('SELECT * FROM phrases')
+# # print(cursor.fetchall())
+# phrases = cursor.fetchall()
+# for each in phrases:
+#     print(each[0][:-1])
 
 # word = 'volupdstuously'
 # cursor.execute('SELECT * FROM words WHERE word=?',(word,))
