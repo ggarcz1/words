@@ -32,11 +32,11 @@ print(f'There are {count} entries in the Phrases Database')
 #     print(each[0][:-1])
 
 
-# cursor.execute('SELECT * FROM phrases')
-# # print(cursor.fetchall())
-# phrases = cursor.fetchall()
-# for each in phrases:
-#     print(each[0][:-1])
+cursor.execute('SELECT * FROM phrases')
+# print(cursor.fetchall())
+phrases = cursor.fetchall()
+for each in phrases:
+    print(each[0][:-1])
 
 # word = 'volupdstuously'
 # cursor.execute('SELECT * FROM words WHERE word=?',(word,))

@@ -42,7 +42,7 @@ def check_for_word(word):
     cursor.execute('SELECT * FROM words WHERE word=?', (word,))
     response = cursor.fetchall()
     sqliteConnection.close()
-    return len(response) == 1
+    return len(response) >= 1
 
 wordsFileName = 'words.txt'
 # open the file to add new words
